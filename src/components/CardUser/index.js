@@ -17,16 +17,16 @@ const CardUser = () => {
     return (
         <>
             {user.map((userData) => (
-                <div className="card" key={userData.id}>
-                    <img className="photo" alt="Foto do usuário" src={userData.photo} />
+                <div className="user-card" key={userData.id}>
+                    <img className="user-photo" alt="Foto do usuário" src={userData.photo} />
                     <h3>Nome:</h3>
-                    <div className="TextBox">{userData.name}</div>
+                    <div className="user-text-box">{userData.name}</div>
                     <h3>E-mail:</h3>
-                    <div className="TextBox">{userData.email}</div>
+                    <div className="user-text-box">{userData.email}</div>
                     <h3>Telefone:</h3>
-                    <div className="TextBox">{userData.telephone}</div>
-                    <div className="footer">
-                        <div className="logout">
+                    <div className="user-text-box">{userData.telephone}</div>
+                    <div className="user-footer">
+                        <div className="user-logout-link">
                             <a href="#">Sair da conta</a>
                             <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "global-class-name" }}>
                                 <div>
@@ -34,9 +34,9 @@ const CardUser = () => {
                                 </div>
                             </IconContext.Provider>
                         </div>
-                        <div className="delete">
+                        <div className="user-delete-link">
                             <a href="#">Excluir conta</a>
-                            <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "global-class-name" }}>
+                            <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "user-global-class-name" }}>
                                 <div>
                                     <RiDeleteBin6Line />
                                 </div>
