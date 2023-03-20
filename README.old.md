@@ -1,0 +1,3 @@
+# adote-patinhas
+
+Vamos turma! 
