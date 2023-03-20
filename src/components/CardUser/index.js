@@ -1,4 +1,3 @@
-import florentina from "../../img/users/florentina-de-jesus.png";
 import { IconContext } from "react-icons";
 import { BiLogOut } from 'react-icons/bi';
 import { RiDeleteBin6Line } from 'react-icons/ri';
@@ -6,9 +5,8 @@ import "./CardUser.css";
 
 const user = [
     {
-        photo: florentina,
-        name: 'Florentina de Jesus',
-        email: 'florentina@gmail.com',
+        name: 'Victoria Shirley',
+        email: 'victoria@gmail.com',
         telephone: '(00) 00000-0000',
     }
 ]
@@ -18,7 +16,7 @@ const CardUser = () => {
         <>
             {user.map((userData) => (
                 <div className="user-card" key={userData.id}>
-                    <img className="user-photo" alt="Foto do usuário" src={userData.photo} />
+                    <img className="user-photo" alt="Foto do usuário" src='https://github.com/VictoriaShirley.png' />
                     <h3>Nome:</h3>
                     <div className="user-text-box">{userData.name}</div>
                     <h3>E-mail:</h3>
