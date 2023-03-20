@@ -36,7 +36,7 @@ function Filter() {
 
 
   return (
-    <main className="card">
+    <main className="filter">
       <div className="filter-container">
         <div className="filter-box">
           <Dropdown

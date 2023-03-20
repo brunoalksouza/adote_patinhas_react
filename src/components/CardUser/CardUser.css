@@ -4,9 +4,9 @@
   }
 
 .user-card {
-    background-color: #F2F1EB;
+    background-color: #f2f1eb;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
     width: 415px;
     height: 480px;
 }

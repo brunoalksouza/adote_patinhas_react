@@ -1,13 +1,15 @@
 import "./App.css";
-import CardUser from "./components/CardUser";
 import Filter from "./components/Filter/Filter";
+import CardUser from "./components/CardUser"
+
 
 function App() {
-  return <>
-  <Filter />
-  <CardUser />
-  </> 
-  ;
+  return (
+    <>
+      <Filter />
+      <CardUser />
+    </>
+  )
 }
 
 export default App;
