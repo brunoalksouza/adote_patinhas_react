@@ -1,8 +1,12 @@
 import "./App.css";
-import Filter from "./components/Filter/Filter";
+import CardList from "./components/CardList";
 
 function App() {
-  return <Filter />;
+  return (
+    <div className="App">
+      <CardList />
+    </div>
+  );
 }
 
 export default App;
