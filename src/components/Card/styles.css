@@ -24,3 +24,7 @@
   font-weight: 500;
   border: none;
 }
+
+body.modal-open {
+  overflow: hidden;
+}

@@ -9,10 +9,12 @@ const Card = (props) => {
 
   function openModal() {
     setModalIsOpen(true);
+    document.body.classList.add("modal-open");
   }
 
   const closeModal = () => {
     setModalIsOpen(false);
+    document.body.classList.remove("modal-open");
   };
 
   return (

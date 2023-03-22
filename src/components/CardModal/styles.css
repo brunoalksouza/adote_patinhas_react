@@ -1,160 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-/* detalhes do modal */
-/* .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f2f1eb;
-  border-radius: 5px;
-  width: 45rem;
-  height: 24rem;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-}
-.modal-modal {
-  float: left;
-}
-.add-modal-information {
-  font-family: "Quicksand", sans-serif;
-  color: #5a3938;
-  font-weight: bold;
-  font-size: 16px;
-  z-index: 100;
-  padding: 10px;
-  height: 100%;
-}
-.contact-modal {
-  float: left;
-  margin-top: 19.5rem;
-}
-.tel-modal {
-  margin-top: 10px;
-}
-.sex-modal {
-  margin-top: 20.6rem;
-}
-.contact-modal-sex-box {
-  display: flex;
-  justify-content: space-between;
-} */
-
-
-/* .modal-modal-container {
-  display: flex;
-  flex-direction: column;
-  width: 15rem;
-  overflow: hidden;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-.modal-button-modal {
-  margin-top: auto;
-  width: 100%;
-  cursor: pointer;
-  height: 3rem;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
-  border: none;
-}
-
-.modal-info-modal-container {
-  margin: 10px;
-}
-.modal-text-modal-main {
-  font-family: "Quicksand", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  font-weight: bold;
-  color: #5a3938;
-  margin-bottom: 15px;
-  margin-top: 12px;
-}
-
-.modal-modal-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-}
-
-.modal-text-modal-container {
-  font-family: "Quicksand", sans-serif;
-  color: #5a3938;
-  font-weight: bold;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-}
-
-.icon {
-  color: #5a3938;
-}
-.modal-text-modal-left {
-  font-size: 16px;
-  margin: 0;
-}
-
-.modal-text-modal-right {
-  font-size: 16px;
-  margin: 0;
-}
-
-@media screen and (max-width: 750px) {
-  .modal {
-    width: 36rem;
-    height: 24rem;
-  }
-  .contact-modal {
-    margin-top: 19rem;
-  }
-  .sex-modal {
-    margin-top: 20rem;
-  }
-  .add-modal-information {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .modal {
-    width: 100%;
-    height: 100%;
-  }
-  .modal-modal {
-    width: 100%;
-  }
-  .modal-modal-container {
-    width: 100%;
-  }
-  .add-modal-information {
-    height: 100%;
-  }
-  .modal-modal-image {
-    width: 300px;
-    height: 300px;
-  }
-  .contact-modal-sex-box {
-    display: block;
-  }
-  .contact-modal {
-    margin-top: 2px;
-  }
-  .tel-modal {
-    margin-top: 2px;
-  }
-  .sex-modal {
-    margin-top: 2px;
-  }
-} */
-
-/* 
-  new responsive css
-*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 .overlay {
   float: left;
@@ -173,7 +17,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  
+  max-height: 80vh;
+  overflow-y: auto;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 .modal-container {
@@ -183,78 +31,198 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   font-family: "Quicksand", sans-serif;
-  overflow: hidden;
+}
 
+.informations-container {
+  margin: 10px;
+  color: #5a3938;
+  font-weight: 600;
+  font-size: 17.3px;
 }
 
 .modal-button {
-  margin-top: auto;
   width: 100%;
   cursor: pointer;
   height: 3rem;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Quicksand", sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   border: none;
 }
 
-.modal-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
+.modal-button-card {
+  display: none;
 }
 
-.modal-text-main {
-  color: #5a3938;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0;
+.modal-image {
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-bottom: 5px;
 }
 
 .modal-text-container {
-  color: #5a3938;
-  font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 10px;
 }
 
-.modal-text-left {
-  font-size: 16px;
-  margin: 0;
+.additional-informations {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  gap: 10px;
 }
 
-.modal-text-right {
-  font-size: 16px;
-  margin: 0;
+.modal-description {
+  font-size: 20px;
+}
+
+.modal-additional-text {
+  display: grid;
+  gap: 10px;
 }
 
 @media (min-width: 576px) {
   .modal {
     width: 36rem;
-    height: 24rem;
+    height: auto;
   }
+
   .modal-container {
     width: 100%;
   }
+
+  .modal-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+  }
+  .modal-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 10px 10px 10px;
+  }
+
+  .informations-container {
+    margin: 0;
+  }
+
+  .card-informations {
+    float: left;
+    margin-right: 10px;
+  }
+  .additional-informations {
+    margin: 10px;
+  }
+
+  .modal-button {
+    display: none;
+  }
+
+  .modal-button-card {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    height: 3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0px 5px 0px 0px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 46rem;
+    height: auto;
+  }
+
+  .modal-button {
+    display: none;
+  }
+
+  .modal-container {
+    width: 100%;
+  }
+
+  .modal-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .modal-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .modal-additional-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-informations {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .modal-additional-text {
+    margin-top: auto;
+  }
+}
+@media (min-width: 992px) {
+  .modal {
+    width: 56rem;
+    height: auto;
+  }
+
+  .modal-container {
+    width: 100%;
+  }
+
   .modal-image {
     width: 300px;
     height: 300px;
   }
   .modal-text-container {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .card-informations {
+    float: left;
+    margin-right: 10px;
   }
 }
-
-@media (min-width: 768px) {
-}
-@media (min-width: 992px) {
-}
 @media (min-width: 1200px) {
+  .modal {
+    width: 56rem;
+    height: auto;
+  }
+
+  .modal-container {
+    width: 100%;
+  }
+
+  .modal-image {
+    width: 300px;
+    height: 300px;
+  }
+  .modal-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .card-informations {
+    float: left;
+    margin-right: 10px;
+  }
 }
