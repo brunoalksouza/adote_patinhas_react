@@ -1,6 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /* detalhes do modal */
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,7 +11,7 @@
   height: 24rem;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
-.card-modal {
+.modal-modal {
   float: left;
 }
 .add-modal-information {
@@ -36,20 +36,10 @@
 .contact-modal-sex-box {
   display: flex;
   justify-content: space-between;
-}
-/* card */
-.overlay {
-  float: left;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 99;
-}
+} */
 
-.card-modal-container {
+
+/* .modal-modal-container {
   display: flex;
   flex-direction: column;
   width: 15rem;
@@ -58,7 +48,7 @@
   margin-right: 10px;
 }
 
-/* .card-button-modal {
+.modal-button-modal {
   margin-top: auto;
   width: 100%;
   cursor: pointer;
@@ -68,12 +58,12 @@
   font-size: 20px;
   font-weight: 500;
   border: none;
-} */
+}
 
-.card-info-modal-container {
+.modal-info-modal-container {
   margin: 10px;
 }
-.card-text-modal-main {
+.modal-text-modal-main {
   font-family: "Quicksand", sans-serif;
   display: flex;
   justify-content: space-between;
@@ -84,7 +74,7 @@
   margin-top: 12px;
 }
 
-.card-modal-image {
+.modal-modal-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -93,7 +83,7 @@
   margin: 0 auto;
 }
 
-.card-text-modal-container {
+.modal-text-modal-container {
   font-family: "Quicksand", sans-serif;
   color: #5a3938;
   font-weight: bold;
@@ -105,12 +95,12 @@
 .icon {
   color: #5a3938;
 }
-.card-text-modal-left {
+.modal-text-modal-left {
   font-size: 16px;
   margin: 0;
 }
 
-.card-text-modal-right {
+.modal-text-modal-right {
   font-size: 16px;
   margin: 0;
 }
@@ -135,16 +125,16 @@
     width: 100%;
     height: 100%;
   }
-  .card-modal {
+  .modal-modal {
     width: 100%;
   }
-  .card-modal-container {
+  .modal-modal-container {
     width: 100%;
   }
   .add-modal-information {
     height: 100%;
   }
-  .card-modal-image {
+  .modal-modal-image {
     width: 300px;
     height: 300px;
   }
@@ -160,8 +150,111 @@
   .sex-modal {
     margin-top: 2px;
   }
-}
+} */
 
 /* 
   new responsive css
 */
+
+.overlay {
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  
+}
+
+.modal-container {
+  background-color: #f2f1eb;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  overflow: hidden;
+
+}
+
+.modal-button {
+  margin-top: auto;
+  width: 100%;
+  cursor: pointer;
+  height: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+}
+
+.modal-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-text-main {
+  color: #5a3938;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.modal-text-container {
+  color: #5a3938;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.modal-text-left {
+  font-size: 16px;
+  margin: 0;
+}
+
+.modal-text-right {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .modal {
+    width: 36rem;
+    height: 24rem;
+  }
+  .modal-container {
+    width: 100%;
+  }
+  .modal-image {
+    width: 300px;
+    height: 300px;
+  }
+  .modal-text-container {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}

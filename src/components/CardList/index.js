@@ -19,6 +19,7 @@ const pets = [
     email: "mayllonorato@gmail.com",
     telefone: "35823236666",
     sexo: "Macho",
+    porte: "Pequeno",
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ const pets = [
     email: "brunoocachorro@gmail.com",
     telefone: "35823237777",
     sexo: "Fêmea",
+    porte: "Médio",
   },
   {
     id: 3,
@@ -47,6 +49,7 @@ const pets = [
     email: "tallesogato@gmail.com",
     telefone: "35823233777",
     sexo: "Macho",
+    porte: "Grande",
   },
 ];
 
