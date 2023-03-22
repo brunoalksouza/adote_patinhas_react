@@ -53,16 +53,19 @@ const CardModal = (props) => {
             {changeButton ? "Tenho interesse" : "Remover"}
           </button>
         </div>
-        <div className="modal-description">
-          Descrição: {props.pet.descricao}
-        </div>
-        <div className="modal-additional-text">
-          <div>E-mail: {props.pet.email}</div>
-          <div>Telefone: {props.pet.telefone}</div>
-          <div>Porte: {props.pet.porte}</div>
-          <div>Sexo: {props.pet.sexo}</div>
+        <div className="aditional-informations">
+          <div className="modal-description">
+            Descrição: {props.pet.descricao}
+          </div>
+          <div className="modal-aditional-text">
+            <div>E-mail: {props.pet.email}</div>
+            <div>Telefone: {props.pet.telefone}</div>
+            <div>Porte: {props.pet.porte}</div>
+            <div>Sexo: {props.pet.sexo}</div>
+          </div>
         </div>
       </div>
+
       <button
         className="modal-button"
         onClick={() => {
