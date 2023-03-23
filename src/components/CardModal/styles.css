@@ -150,6 +150,7 @@
   .informations-container {
     margin: 0;
     max-height: 500px;
+    width: 100%;
   }
 
   .modal-description {
