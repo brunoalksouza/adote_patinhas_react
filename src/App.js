@@ -1,8 +1,8 @@
 import "./App.css";
-import Filter from "./components/Filter/Filter";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
-  return <Filter />;
+  return <LoginPage />;
 }
 
 export default App;
