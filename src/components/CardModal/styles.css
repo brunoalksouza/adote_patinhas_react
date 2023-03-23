@@ -29,7 +29,6 @@
 }
 
 .informations-container {
-  margin: 10px;
   color: #5a3938;
   font-weight: 600;
   font-size: 17.3px;
@@ -53,17 +52,39 @@
 
 .modal-image {
   width: 100%;
-  max-height: auto;
+  max-height: 400px;
   object-fit: cover;
   border-radius: 10px;
   margin: 0 auto;
   padding-bottom: 5px;
 }
 
+.card-informations {
+  margin: 10px;
+}
+
+.aditional-informations {
+  margin: 10px;
+}
+
 .modal-text-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+}
+
+.modal-card-text-1 {
+  display: grid;
+  gap: 10px;
+}
+
+.modal-card-text-2 {
+  display: grid;
+  gap: 10px;
+  justify-content: end;
+}
+
+.modal-card-text-2 div {
+  text-align: end;
 }
 
 .modal-description {
@@ -76,18 +97,30 @@
   gap: 10px;
 }
 
+.text-section-1 {
+  display: grid;
+  gap: 10px;
+}
+
+.text-section-2 {
+  display: grid;
+  gap: 10px;
+}
+
 @media (min-width: 576px) {
-  .modal{
+  .modal {
     flex-direction: row;
     overflow-y: hidden;
   }
 
   .card-informations {
+    margin: 0;
     float: left;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
     height: auto;
+    line-height: normal;
     width: 270px;
     gap: 10px;
   }
@@ -99,6 +132,8 @@
   }
 
   .aditional-informations {
+    padding-right: 10px;
+    margin: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -122,11 +157,11 @@
     flex-direction: column;
     gap: 10px;
     margin: 0;
-    padding-top: 10px;
+    padding: 15px 0;
   }
 
   .modal-aditional-text {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .modal-button {
@@ -169,14 +204,10 @@
     margin: 10px;
   }
 
- 
   .informations-container {
     margin: 0;
     max-height: 500px;
   }
-
-  
-
 
   .modal-button {
     display: none;
@@ -195,14 +226,19 @@
     border-radius: 0px 5px 0px 0px;
     border: none;
   }
+
+  .modal-aditional-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-section-2 {
+    justify-content: end;
+  }
 }
 @media (min-width: 992px) {
-
   .modal {
     width: 70%;
   }
-
-  
 }
 @media (min-width: 1200px) {
   .modal {
