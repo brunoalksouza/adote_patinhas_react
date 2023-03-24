@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: local('Quicksand'), url(../../fonts/Quicksand/static/Quicksand-Bold.ttf) format('truetype');
+  }
+
+.card {
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px 0 185px 0;
+    width: 415px;
+    height: 480px;
+}
+
+.photo {
+    border-radius: 12px;
+    margin: 23px 80px 2px 70px;
+    width: 245px;
+    height: 200px;
+}
+
+h3 {
+    color: #5A3938;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    margin: 1px 80px 5px 80px;
+    text-align: left;
+}
+
+.TextBox {
+    background-color: #D9D9D9;
+    color: #5A3938;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    margin: 0.5px 80px 7px 80px;
+    text-align: left;
+    width: 245px;
+    height: 22px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+.logout a {
+    color: #5A3938;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    text-align: center;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+}
+
+.delete a {
+    color: #5A3938;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    text-align: center;
+}
+
+.global-class-name {
+    display: flex;
+    align-items: center;
+}
+
+
