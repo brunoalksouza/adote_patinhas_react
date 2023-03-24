@@ -4,8 +4,8 @@ import Footer from "./components/Footer/footer";
 
 function App() {
   return (
-    <div className="App">
-      <Filter />;
+    <div>
+      <Filter />
       <Footer />
     </div>
     
