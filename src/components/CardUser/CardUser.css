@@ -4,9 +4,14 @@
   }
 
 .user-card {
+<<<<<<< Updated upstream
     background-color: #f2f1eb;
     flex-direction: column;
     justify-content: center;    
+=======
+    background-color: #F2F1EB;
+    justify-content: center;
+>>>>>>> Stashed changes
     width: 415px;
     height: 480px;
 }
@@ -75,5 +80,61 @@ h3 {
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 1020px) {
+    .user-card {
+      width: 250px;
+    }
+
+    .user-photo {
+        margin: 23px 35px 2px 35px;
+        width: 180px;
+        height: 180px;
+    }
+
+    h3 {
+        color: #5A3938;
+        font-family: 'Quicksand';
+        font-size: 14px;
+        margin: 1px 30px 5px 30px;
+        text-align: left;
+    }
+
+    .user-text-box {
+        font-size: 14px;
+        margin: 0.5px 30px 7px 30px;
+        text-align: left;
+        width: 200px;
+        height: 22px;
+    }
+
+    .user-form {
+        margin-right: 50px;
+    }
+
+    .user-logout-link a {
+        font-size: 14px;
+    }
+
+    .user-delete-link a {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+    .user-card {
+      width: 515px;
+    }
+
+    .user-photo {
+        margin: 23px 101px 2px 101px;
+    }
+
+    .user-form {
+        margin: 0 80px 0 65px;
+    }
+}
+
 
 

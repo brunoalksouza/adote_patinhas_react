@@ -1,0 +1,21 @@
+.title-pet-cards {
+    color: #5A3938;
+    background-color: #F2F1EB;
+    width: 530px;
+    margin-right: 25px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.title-pet-cards h2 {
+    font-size: 16px;
+    font-family: 'Quicksand';
+}
+
+@media screen and (max-width: 1020px) {
+    .title-pet-cards {
+        width: 410px;
+    }
+} 

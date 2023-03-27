@@ -1,0 +1,50 @@
+.profile-screen {
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    background-color: #A5C282;
+}
+
+.header {
+    background-color: #9e9d97;
+    height: 60px;
+}
+
+.pets-cards {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+}
+
+.registered-pets1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    overflow-y: auto;
+    flex-direction: column;
+    height: 50vh;
+}
+
+
+.card {
+    margin: 10px 10px 10px 0;
+    width: 261px;
+    min-height: 331px;
+    border-radius: 5px;
+    background-color: #F2F1EB;
+}
+
+.footer {
+    height: 175px;
+    background-color: #516953;
+}
+
+@media screen and (max-width: 1020px) {
+    .card {
+        width: 200px;
+    }
+}

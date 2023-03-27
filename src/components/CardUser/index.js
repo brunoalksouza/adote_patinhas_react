@@ -17,12 +17,14 @@ const CardUser = () => {
             {user.map((userData) => (
                 <div className="user-card" key={userData.id}>
                     <img className="user-photo" alt="Foto do usuário" src='https://github.com/VictoriaShirley.png' />
-                    <h3>Nome:</h3>
-                    <div className="user-text-box">{userData.name}</div>
-                    <h3>E-mail:</h3>
-                    <div className="user-text-box">{userData.email}</div>
-                    <h3>Telefone:</h3>
-                    <div className="user-text-box">{userData.telephone}</div>
+                    <div className="user-form">
+                        <h3>Nome:</h3>
+                        <div className="user-text-box">{userData.name}</div>
+                        <h3>E-mail:</h3>
+                        <div className="user-text-box">{userData.email}</div>
+                        <h3>Telefone:</h3>
+                        <div className="user-text-box">{userData.telephone}</div>
+                    </div>
                     <div className="user-footer">
                         <div className="user-logout-link">
                             <a href="#">Sair da conta</a>
