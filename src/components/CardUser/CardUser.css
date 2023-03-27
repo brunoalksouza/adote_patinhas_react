@@ -4,39 +4,48 @@
   }
 
 .user-card {
-<<<<<<< Updated upstream
-    background-color: #f2f1eb;
+    background-color: #F2F1EB;
     flex-direction: column;
     justify-content: center;    
-=======
-    background-color: #F2F1EB;
-    justify-content: center;
->>>>>>> Stashed changes
     width: 415px;
     height: 480px;
+    padding: 30px 0;
+}
+
+.user-card-photo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .user-photo {
     border-radius: 8px;
-    margin: 23px 80px 2px 80px;
     width: 245px;
     height: 230px;
 }
 
-h3 {
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-form h3 {
     color: #5A3938;
     font-family: 'Quicksand';
     font-size: 16px;
-    margin: 1px 80px 5px 80px;
+    margin: 10px 190px 0 0;
     text-align: left;
 }
 
 .user-text-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     background-color: #D9D9D9;
     color: #5A3938;
     font-family: 'Quicksand';
     font-size: 16px;
-    margin: 0.5px 80px 7px 80px;
     text-align: left;
     width: 245px;
     height: 22px;
@@ -87,52 +96,79 @@ h3 {
     }
 
     .user-photo {
-        margin: 23px 35px 2px 35px;
         width: 180px;
         height: 180px;
     }
 
-    h3 {
-        color: #5A3938;
-        font-family: 'Quicksand';
+    .user-form h3 {
         font-size: 14px;
-        margin: 1px 30px 5px 30px;
-        text-align: left;
+        margin: 10px 150px 0 0;
     }
 
     .user-text-box {
         font-size: 14px;
-        margin: 0.5px 30px 7px 30px;
         text-align: left;
         width: 200px;
         height: 22px;
     }
 
-    .user-form {
-        margin-right: 50px;
+    .user-footer {
+        margin-top: 30px;
     }
 
     .user-logout-link a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .user-delete-link a {
-        font-size: 14px;
+        font-size: 12px;
     }
     
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 760px) {
     .user-card {
-      width: 515px;
+      width: 100vw;
+      height: 100vh;
     }
 
-    .user-photo {
-        margin: 23px 101px 2px 101px;
+    .user-card-photo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .user-form {
-        margin: 0 80px 0 65px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-form h3 {
+        font-size: 16px;
+        margin: 10px 250px 0 0;
+    }
+
+    .user-photo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .user-text-box {
+        font-size: 16px;
+        width: 320px;
+        height: 22px;
+    }
+
+    .user-footer {
+        margin: 60px;
+    }
+
+    .user-logout-link a {
+        font-size: 16px;
+    }
+
+    .user-delete-link a {
+        font-size: 16px;
     }
 }
 

@@ -16,7 +16,9 @@ const CardUser = () => {
         <>
             {user.map((userData) => (
                 <div className="user-card" key={userData.id}>
-                    <img className="user-photo" alt="Foto do usuário" src='https://github.com/VictoriaShirley.png' />
+                    <div className="user-card-photo">
+                        <img className="user-photo" alt="Foto do usuário" src="https://github.com/VictoriaShirley.png" />
+                    </div>
                     <div className="user-form">
                         <h3>Nome:</h3>
                         <div className="user-text-box">{userData.name}</div>
