@@ -1,6 +1,7 @@
-import './Profile.css';
-import CardUser from "../../components/CardUser";
-import Title from './elements';
+import "./Profile.css";
+import CardUser from "../../components/Profile/CardUser";
+import Title from "../Profile/elements/Title/index";
+import ButtonProfile from "../../components/Profile/ButtonProfile";
 
 const Profile = () => {
     return <section className='profile-screen'>
@@ -18,6 +19,9 @@ const Profile = () => {
                     <div className='card'></div>
                     <div className='card'></div>
                     <div className='card'></div>
+                </div>
+                <div>
+                    <ButtonProfile>CADASTRE SEU BICHINHO</ButtonProfile>
                 </div>
             </div>
         </div>
