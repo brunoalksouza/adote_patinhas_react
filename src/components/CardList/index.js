@@ -4,6 +4,7 @@ import "./styles.css";
 import brunoImg from "../../assets/bruno.jpg";
 import mayllonImg from "../../assets/mayllon.jpg";
 import tallesImg from "../../assets/talles.jpg";
+import RegisteredCard from "../RegisteredCard";
 
 const pets = [
   {
@@ -60,6 +61,9 @@ const CardList = () => {
       <div className="card-list">
         {pets.map((pet) => (
           <Card key={pet.id} pet={pet} />
+        ))}
+        {pets.map((pet) => (
+          <RegisteredCard key={pet.id} pet={pet} />
         ))}
       </div>
     </div>
