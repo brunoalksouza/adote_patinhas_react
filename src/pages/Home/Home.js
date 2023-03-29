@@ -1,5 +1,5 @@
 import "./styles.css";
-import Filter from "../../components/Filter";
+import Filter from "../../components/Filter-box/Filter";
 import React from "react";
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
