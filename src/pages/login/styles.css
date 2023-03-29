@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@100&family=Quicksand&family=Tomorrow&display=swap");
+
+.bg-login {
+  background-color: #516953;
+}
+
+.login-screen {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-cover {
+  display: none;
+  background-size: cover;
+}
+
+.form-wrapper {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+@media (min-width: 1024px) {
+  .bg-cover {
+    display: block;
+    width: 66.666667%;
+  }
+
+  .bg-opacity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.32);
+  }
+
+  .form-wrapper {
+    width: 33.333333%;
+    padding: 0 1.5rem;
+    display: flex;
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+
+  .form-content {
+    flex: 1 1 0%;
+  }
+
+  .form-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: rgb(255 255 255);
+  }
+
+  .prime-title {
+    border-radius: 5px;
+    padding: 3rem 5rem;
+    background: rgba(24, 22, 22, 0.6);
+    text-align: center;
+  }
+
+  .prime-title div {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 1.8rem;
+  }
+}
