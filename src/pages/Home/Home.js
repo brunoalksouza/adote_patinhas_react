@@ -7,7 +7,7 @@ import CardList from "../../components/Cards/CardList";
 
 function Home() {
   return (
-    <div className="houme">
+    <div className="home">
       <NavBar />
       <Filter />
       <CardList />
