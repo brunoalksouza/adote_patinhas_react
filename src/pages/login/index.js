@@ -1,5 +1,7 @@
 import imgBg from "../../assets/img-bg.png";
 import imgLogo from "../../assets/logo.png";
+import ButtonFacebook from "../../components/Buttons/ButtonFacebook";
+import ButtonGoogle from "../../components/Buttons/ButtonGoogle";
 import "./styles.css";
 
 const LoginPage = () => {
@@ -26,7 +28,9 @@ const LoginPage = () => {
         <section className="form-wrapper">
           <div className="form-content">
             <div className="form-text">
-              <h2>Faça seu cadastro!</h2>
+              <h1>Faça seu cadastro!</h1>
+              <ButtonGoogle />
+              <ButtonFacebook />
             </div>
           </div>
         </section>
