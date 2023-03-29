@@ -1,15 +1,12 @@
 import "./App.css";
-import Filter from "./components/Filter/Filter";
-import React from "react";
-import NavBar from "./components/NavBar"
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Filter />
+      <Home />
     </div>
-  )
+  );
 }
 
 export default App;

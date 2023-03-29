@@ -1,0 +1,15 @@
+.card-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.card-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  justify-items: center;
+}
