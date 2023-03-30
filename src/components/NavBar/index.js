@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Navbar.css';
+import './styles.css';
 import {BiMenu,BiX} from "react-icons/bi";
-import logo from "../../img/logo.svg"
+import logo from "../img/logo.svg"
 
 function NavBar() {
   const [toggleMenu, setToggleMenu]=useState(false);

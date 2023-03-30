@@ -1,10 +1,11 @@
 .filter-container {
-  background-color: #516953;
-}
-
-.filter-box {
-  background-color: white;
-  background-color: transparent;
-  display: flex;
-}
-
+    background-color: #516953;
+  }
+  
+  .filter-box {
+    background-color: white;
+    background-color: transparent;
+    display: flex;
+  }
+  
+  
