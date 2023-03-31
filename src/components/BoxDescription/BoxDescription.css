@@ -1,0 +1,80 @@
+.box-description label {
+    display: block;
+    font-size: 18px;
+    font-family: 'Quicksand';
+    color: #5A3938;
+}
+
+.box-description textarea {
+    background-color: #D9D9D9;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    border-radius: 5px;
+    width: 573.59px;
+    height: 215px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:950px) {
+    .box-description textarea {
+        width: 528.59px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .box-description textarea {
+        width: 460.59px;
+    }
+}
+
+@media screen and (max-width:715px) {
+    .box-description textarea {
+        width: 402.59px;
+        height: 177px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .box-description textarea {
+        width: 394.55px;
+        height: 171px;
+    }
+}
+
+/*------------------Mobile---------------*/
+@media screen and (max-width:650px) {
+    .box-description textarea {
+        width: 415.59px;
+        height: 159px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-description {
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+
+    .box-description label {
+        font-size: 16px;
+    }
+
+    .box-description textarea {
+        width: 378.59px;
+        height: 129px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box-description textarea {
+        width: 353.59px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box-description {
+        margin-left: 21px;
+        margin-top: 7px;
+    }
+}

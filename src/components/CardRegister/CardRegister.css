@@ -1,0 +1,240 @@
+body {
+    background: #A5C282;
+    background-image: url(../../../public/img/texture.png);
+}
+
+.box-title {
+    background-color: #F2F1EB;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 8px;
+    color: #5A3938;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.card-register {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    background-color: #F2F1EB;
+    height: 538.55px;
+    width: 884.01px;
+}
+
+.container {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.description {
+    margin-right: 25px;
+    margin-left: 42px;
+}
+
+.info-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.button-register-desktop {
+    margin-left: -228px;
+    margin-top: 430px;
+}
+
+.information-mobile,
+.info-mobile,
+.staff-mobile,
+.description-mobile,
+.button-register-mobile {
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .card-register {
+        height: 500.55px;
+        width: 800.01px;
+    }
+
+    .container {
+        margin-left: 10px;
+    }
+
+    .description {
+        margin-left: 21px;
+    }
+
+    .button-register-desktop {
+        margin-left: -230px;
+        margin-top: 398px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .card-register {
+        width: 720.0px;
+    }
+
+    .description {
+        margin-left: 12px;
+    }
+
+    .container {
+        margin-top: 15px;
+    }
+
+    .info-desktop {
+        margin-top: 7px;
+    }
+
+    .button-register-desktop {
+        margin-left: -188px;
+        margin-top: 402px;
+    }
+}
+
+@media screen and (max-width:715px) {
+    .card-register {
+        width: 620px;
+        height: 471px;
+    }
+
+    .button-register-desktop {
+        margin-top: 357px;
+    }
+}
+
+/*------------------Mobile---------------*/
+@media screen and (max-width:650px) {
+    .box-title {
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .card-register {
+        height: 630px;
+        width: 435px;
+    }
+
+    .container {
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+
+    .description {
+        margin-left: -419px;
+    }
+
+    .information-mobile {
+        display: block;
+        margin-left: 28px;
+        position: relative;
+    }
+
+    .info-mobile {
+        display: block;
+        margin-top: 255px;
+        margin-left: 223px;
+        position: relative;
+    }
+
+    .staff-mobile {
+        display: block;
+        margin-top: -148px;
+    }
+
+    .description-mobile {
+        display: flex;
+    }
+
+    .button-register-mobile {
+        display: block;
+    }
+
+    .description-desktop,
+    .staff-desktop,
+    .information-desktop,
+    .info-desktop,
+    .button-register-desktop {
+        display: none;
+    }
+
+    .button-register {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-delete {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-title {
+        width: 387px;
+        height: 30px;
+    }
+
+    .card-register {
+        height: 600px;
+        width: 384px;
+    }
+
+    .container {
+        margin-left: 1px;
+    }
+
+    .information-mobile {
+        margin-left: 26px;
+    }
+
+    .description {
+        margin-left: 20px;
+    }
+
+    .info-mobile {
+        margin-top: 250px;
+        margin-left: -196px;
+    }
+
+    .staff-mobile {
+        margin-left: -401px;
+        margin-top: -146px;
+    }
+
+    .description-mobile {
+        margin-left: -404px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .box-title {
+        width: 365px;
+    }
+
+    .card-register {
+        width: 361px;
+    }
+
+    .info-mobile {
+        margin-top: 245px;
+        margin-left: -176px;
+    }
+
+    .staff-mobile {
+        margin-left: -365px;
+        margin-top: -143px;
+    }
+
+    .description-mobile {
+        margin-left: -388px;
+    }
+}

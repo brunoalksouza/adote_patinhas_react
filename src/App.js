@@ -1,8 +1,10 @@
-import "./App.css";
-import Filter from "./components/Filter/Filter";
+import Register from "./screens/Register";
 
 function App() {
-  return <Filter />;
+    return <>
+    <Register />
+    </>
+    ;
 }
 
 export default App;
