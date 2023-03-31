@@ -1,8 +1,12 @@
 import "./App.css";
-import Filter from "./components/Filter/Filter";
+import Home from "./pages/Home/Home";
 
 function App() {
-  return <Filter />;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 }
 
 export default App;
