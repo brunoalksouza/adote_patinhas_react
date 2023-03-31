@@ -27,3 +27,8 @@
 body.modal-open {
   overflow: hidden;
 }
+@media (max-width: 830px) {
+  .card-container {
+    margin-bottom: 10px;
+  }
+}
