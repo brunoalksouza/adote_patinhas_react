@@ -5,8 +5,8 @@ const ListSuspendedCastrated = (props) => {
         <div className='list-suspended-castrated'>
             <label>Castrado:</label>
             <select
-                onChange={event => props.toChanged(event.target.value)}
-                value={props.value}>
+                onChange={evento => props.aoAlterado(evento.target.value)}
+                value={props.valor}>
                 {props.itens.map(item => {
                     return <option key={item}>{item}</option>
                 })}

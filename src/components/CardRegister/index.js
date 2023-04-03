@@ -24,8 +24,8 @@ const CardRegister = (props) => {
     const [telephone, setTelephone] = useState('')
     const [size, setSize] = useState('')
 
-    const toRegister = (event) => {
-        event.preventDefault()
+    const toRegister = (evento) => {
+        evento.preventDefault()
         props.theNewRegister ({
             name,
             race,
@@ -53,152 +53,152 @@ const CardRegister = (props) => {
                             <Banner />
                             <div className='information-desktop'>
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Nome"
-                                    value={name}
-                                    aoAlterado={(value) => setName(value)}
+                                    valor={name}
+                                    aoAlterado={(valor) => setName(valor)}
                                 />
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Raça"
-                                    value={race}
-                                    aoAlterado={(value) => setRace(value)}
+                                    valor={race}
+                                    aoAlterado={(valor) => setRace(valor)}
                                 />
                                 <ListSuspended
                                     label="Vacinado"
                                     itens={props.nameChoice}
-                                    value={vaccinated}
-                                    aoAlterado={(value) => setVaccinated(value)}
+                                    valor={vaccinated}
+                                    aoAlterado={(valor) => setVaccinated(valor)}
                                 />
                                 <ListSuspendedCastrated
                                     label="Castrado"
                                     itens={props.nameChoice}
-                                    value={castrated}
-                                    aoAlterado={(value) => setCastrated(value)}
+                                    valor={castrated}
+                                    aoAlterado={(valor) => setCastrated(valor)}
                                 />
                             </div>
                         </div>
                         <div className='information-mobile'>
                             <BoxText
-                                mandatory={true}
+                                obrigatorio={true}
                                 label="Nome"
-                                value={name}
-                                aoAlterado={(value) => setName(value)}
+                                valor={name}
+                                aoAlterado={(valor) => setName(valor)}
                             />
                             <BoxText
-                                mandatory={true}
+                                obrigatorio={true}
                                 label="Raça"
-                                value={race}
-                                aoAlterado={(value) => setRace(value)}
+                                valor={race}
+                                aoAlterado={(valor) => setRace(valor)}
                             />
                             <BoxTextInfo
-                                mandatory={true}
+                                obrigatorio={true}
                                 label="Idade"
-                                value={age}
-                                aoAlterado={(value) => setAge(value)}
+                                valor={age}
+                                aoAlterado={(valor) => setAge(valor)}
                             />
                             <ListSuspended
                                 label="Vacinado"
                                 itens={props.nameChoice}
-                                value={vaccinated}
-                                aoAlterado={(value) => setVaccinated(value)}
+                                valor={vaccinated}
+                                aoAlterado={(valor) => setVaccinated(valor)}
                             />
                             <ListSuspendedCastrated
                                 label="Castrado"
                                 itens={props.nameChoice}
-                                value={castrated}
-                                aoAlterado={(value) => setCastrated(value)}
+                                valor={castrated}
+                                aoAlterado={(valor) => setCastrated(valor)}
                             />
                         </div>
                         <div className='description'>
                             <div className='description-desktop'>
                                 <BoxDescription
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Descrição"
-                                    value={description}
-                                    aoAlterado={(value) => setDescription(value)}
+                                    valor={description}
+                                    aoAlterado={(valor) => setDescription(valor)}
                                 />
                             </div>
                             <div className='info-desktop'>
                                 <BoxTextInfo
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Idade"
-                                    value={age}
-                                    aoAlterado={(value) => setAge(value)}
+                                    valor={age}
+                                    aoAlterado={(valor) => setAge(valor)}
                                 />
                                 <ListSuspendedSex
                                     label="Sexo"
                                     itens={props.nameSex}
-                                    value={sex}
-                                    aoAlterado={(value) => setSex(value)}
+                                    valor={sex}
+                                    aoAlterado={(valor) => setSex(valor)}
                                 />
                                 <ListSuspendedSize
                                     label="Porte"
                                     itens={props.nameSize}
-                                    value={size}
-                                    aoAlterado={(value) => setSize(value)}
+                                    valor={size}
+                                    aoAlterado={(valor) => setSize(valor)}
                                 />
                             </div>
                             <div className='info-mobile'>
                                 <ListSuspendedSize
                                     label="Porte"
                                     itens={props.nameSize}
-                                    value={size}
-                                    aoAlterado={(value) => setSize(value)}
+                                    valor={size}
+                                    aoAlterado={(valor) => setSize(valor)}
                                 />
                                 <ListSuspendedSex
                                     label="Sexo"
                                     itens={props.nameSex}
-                                    value={sex}
-                                    aoAlterado={(value) => setSex(value)}
+                                    valor={sex}
+                                    aoAlterado={(valor) => setSex(valor)}
                                 />
                             </div>
                             <div className='staff-desktop'>
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Cep"
-                                    value={zipcode}
-                                    aoAlterado={(value) => setZipcode(value)}
+                                    valor={zipcode}
+                                    aoAlterado={(valor) => setZipcode(valor)}
                                 />
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="E-mail"
-                                    value={email}
-                                    aoAlterado={(value) => setEmail(value)}
+                                    valor={email}
+                                    aoAlterado={(valor) => setEmail(valor)}
                                 />
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Telefone"
-                                    value={telephone}
-                                    aoAlterado={(value) => setTelephone(value)}
+                                    valor={telephone}
+                                    aoAlterado={(valor) => setTelephone(valor)}
                                 />
                             </div>
                             <div className='staff-mobile'>
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="E-mail"
-                                    value={email}
-                                    aoAlterado={(value) => setEmail(value)}
+                                    valor={email}
+                                    aoAlterado={(valor) => setEmail(valor)}
                                 />
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Telefone"
-                                    value={telephone}
-                                    aoAlterado={(value) => setTelephone(value)}
+                                    valor={telephone}
+                                    aoAlterado={(valor) => setTelephone(valor)}
                                 />
                                 <BoxText
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Cep"
-                                    value={zipcode}
-                                    aoAlterado={(value) => setZipcode(value)}
+                                    valor={zipcode}
+                                    aoAlterado={(valor) => setZipcode(valor)}
                                 />
                             </div>
                             <div className='description-mobile'>
                                 <BoxDescription
-                                    mandatory={true}
+                                    obrigatorio={true}
                                     label="Descrição"
-                                    value={description}
-                                    aoAlterado={(value) => setDescription(value)}
+                                    valor={description}
+                                    aoAlterado={(valor) => setDescription(valor)}
                                 />
                             </div>
                         </div>

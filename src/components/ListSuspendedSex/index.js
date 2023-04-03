@@ -6,8 +6,8 @@ const ListSuspendedSex = (props) => {
         <div className='list-suspended-sex'>
             <label>Sexo:</label>
             <select
-                onChange={event => props.toChanged(event.target.value)}
-                value={props.value}>
+                onChange={evento => props.aoAlterado(evento.target.value)}
+                value={props.valor}>
                 {props.itens.map(item => {
                     return <option key={item}>{item}</option>
                 })}

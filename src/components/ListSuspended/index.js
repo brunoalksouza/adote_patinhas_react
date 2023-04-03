@@ -5,8 +5,8 @@ const ListSuspended = (props) => {
         <div className='list-suspended'>
             <label>Vacinado:</label>
             <select
-                onChange={event => props.toChanged(event.target.value)}
-                value={props.value}>
+                onChange={evento => props.aoAlterado(evento.target.value)}
+                value={props.valor}>
                 {props.itens.map(item => {
                     return <option key={item}>{item}</option>
                 })}

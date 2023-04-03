@@ -4,14 +4,14 @@ const BoxText = (props) => {
 
     const labelModificada = `${props.label}:`;
 
-    const toTyped = (event) => {
-        props.toChanged(event.target.value)
+    const toTyped = (evento) => {
+        props.aoAlterado(evento.target.value)
     }
 
     return (
         <div className='box-text'>
             <label>{labelModificada}</label>
-            <input value={props.value} onChange={toTyped} required={props.mandatory} placeholder={props.placeholder} />
+            <input value={props.valor} onChange={toTyped} required={props.obrigatorio} placeholder={props.placeholder} />
         </div>
     )
 };
