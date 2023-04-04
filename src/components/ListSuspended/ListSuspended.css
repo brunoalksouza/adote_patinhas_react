@@ -59,6 +59,31 @@
 
 @media screen and (max-width:420px) {
     .list-suspended {
-        width: 155.55px;
+        width: 166.55px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .list-suspended {
+        width: 159.55px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .list-suspended {
+        width: 152.55px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .list-suspended {
+        width: 141.55px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .list-suspended {
+        width: 127px;
     }
 }

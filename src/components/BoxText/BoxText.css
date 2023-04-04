@@ -87,7 +87,36 @@
 
 @media screen and (max-width:420px) {
     .box-text input {
-        width: 148.55px;
-        height: 25px;
+        width: 162.55px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .box-text input {
+        width: 153.55px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .box-text input {
+        width: 149.55px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .box-text input {
+        width: 140.55px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box-text input {
+        width: 135.55px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .box-text input {
+        width: 120px;
     }
 }
