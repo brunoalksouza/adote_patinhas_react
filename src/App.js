@@ -1,8 +1,12 @@
-import "./App.css";
-import Filter from "./components/Filter/Filter";
+import AboutScreen from "./screens/AboutScreen";
+
+
 
 function App() {
-  return <Filter />;
+    return <>
+    <AboutScreen/>
+    </>
+         
 }
 
 export default App;
