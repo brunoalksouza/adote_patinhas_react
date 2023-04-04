@@ -5,10 +5,11 @@
     background-color: #F2F1EB;
     border-radius: 5px;
     color: #5A3938;
+    display: flex;
+    justify-content: center;
     height: 45px;
-    margin: 5px 25px 10px 0;
-    text-align: center;
-    width: 530px;
+    width: 550px;
+    margin: 5px 20px 5px 0 ;
 }
 
 .title-pet-cards h2 {
@@ -19,6 +20,15 @@
 
 @media screen and (max-width: 1020px) {
     .title-pet-cards {
-        width: 410px;
+        width: 270px;
+        margin: 5px 20px 5px 0;
+    }
+} 
+
+
+@media screen and (max-width: 620px) {
+    .title-pet-cards {
+        width: 270px;
+        margin: 5px 0;
     }
 } 
