@@ -1,8 +1,12 @@
 import "./App.css";
-import Filter from "./components/Filter/Filter";
+
+import Profile from "./screens/Profile";
 
 function App() {
-  return <Filter />;
+  return <>
+  <Profile />
+  </> 
+  ;
 }
 
 export default App;
