@@ -1,5 +1,5 @@
 import "./styles.css";
-import Dropdown from "../Dropdown/Dropdown";
+import Dropdown from "../Dropdown";
 import React, { useEffect, useState } from "react";
 
 function Filter() {
@@ -33,7 +33,6 @@ function Filter() {
   ];
 
   const animalsList = animals.map((animalObj) => ({ label: animalObj.animal }));
-
 
   return (
     <main className="filter">

@@ -1,5 +1,6 @@
 .filter-container {
   background-color: #516953;
+  font-family: "Quicksand", sans-serif;
 }
 
 .filter-box {
@@ -8,4 +9,3 @@
   display: flex;
   width: 100%;
 }
-
