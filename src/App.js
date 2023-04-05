@@ -1,12 +1,19 @@
-import "./App.css";
-
-import Profile from "./screens/Profile";
 
 function App() {
   return <>
-  <Profile />
+  
   </> 
-  ;
+}
+
+import AboutScreen from "./screens/AboutScreen";
+
+
+
+function App() {
+    return <>
+    
+    </>
+         
 }
 
 export default App;
