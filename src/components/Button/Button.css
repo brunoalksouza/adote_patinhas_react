@@ -1,0 +1,23 @@
+.button {
+    background-color: #516953;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 3px;
+    font-family: 'Quicksand';
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width:825px) {
+    .button {
+        width: 158px;
+        font-size: 13px;
+    }
+}

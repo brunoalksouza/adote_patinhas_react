@@ -1,0 +1,406 @@
+.box-title {
+    background-color: #F2F1EB;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 8px;
+    color: #5A3938;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.card-register {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    background-color: #F2F1EB;
+    height: 538.55px;
+    width: 884.01px;
+}
+
+.container {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+.description {
+    margin-right: 25px;
+    margin-left: 42px;
+}
+
+.info-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.button-register-desktop {
+    margin-left: -228px;
+    margin-top: 430px;
+}
+
+.information-mobile,
+.info-mobile,
+.staff-mobile,
+.description-mobile,
+.button-register-mobile {
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .card-register {
+        height: 500.55px;
+        width: 800.01px;
+    }
+
+    .container {
+        margin-left: 10px;
+    }
+
+    .description {
+        margin-left: 21px;
+    }
+
+    .button-register-desktop {
+        margin-left: -230px;
+        margin-top: 398px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .card-register {
+        width: 720.0px;
+    }
+
+    .description {
+        margin-left: 12px;
+    }
+
+    .container {
+        margin-top: 15px;
+    }
+
+    .info-desktop {
+        margin-top: 7px;
+    }
+
+    .button-register-desktop {
+        margin-left: -188px;
+        margin-top: 402px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .card-register {
+        width: 681px;
+    }
+
+    .container {
+        margin-top: 9px;
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .card-register {
+        width: 681px;
+    }
+
+    .container {
+        margin-top: 9px;
+        margin-left: 1px;
+    }
+}
+
+
+@media screen and (max-width:715px) {
+    .card-register {
+        width: 620px;
+        height: 471px;
+    }
+
+    .button-register-desktop {
+        margin-top: 357px;
+    }
+
+    .container {
+        margin-top: 18px;
+        margin-left: 3px;
+    }
+}
+
+/*------------------Mobile---------------*/
+@media screen and (max-width:650px) {
+    .box-title {
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .card-register {
+        height: 630px;
+        width: 435px;
+    }
+
+    .container {
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+
+    .description {
+        margin-left: -419px;
+    }
+
+    .information-mobile {
+        display: block;
+        margin-left: 28px;
+        position: relative;
+    }
+
+    .info-mobile {
+        display: block;
+        margin-top: 255px;
+        margin-left: 223px;
+        position: relative;
+    }
+
+    .staff-mobile {
+        display: block;
+        margin-top: -148px;
+    }
+
+    .description-mobile {
+        display: flex;
+    }
+
+    .button-register-mobile {
+        display: block;
+    }
+
+    .description-desktop,
+    .staff-desktop,
+    .information-desktop,
+    .info-desktop,
+    .button-register-desktop {
+        display: none;
+    }
+
+    .button-register {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-delete {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-title {
+        width: 387px;
+        height: 30px;
+    }
+
+    .card-register {
+        height: 600px;
+        width: 384px;
+    }
+
+    .container {
+        margin-left: 1px;
+    }
+
+    .information-mobile {
+        margin-left: 26px;
+    }
+
+    .description {
+        margin-left: 20px;
+    }
+
+    .info-mobile {
+        margin-top: 250px;
+        margin-left: -196px;
+    }
+
+    .staff-mobile {
+        margin-left: -401px;
+        margin-top: -146px;
+    }
+
+    .description-mobile {
+        margin-left: -407px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .box-title {
+        width: 365px;
+    }
+
+    .card-register {
+        width: 361px;
+    }
+
+    .info-mobile {
+        margin-left: -187px;
+    }
+
+    .staff-mobile {
+        margin-left: -379px;
+    }
+
+    .description-mobile {
+        margin-left: -397px;
+    }
+
+    .container {
+        margin-left: -5px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .box-title {
+        width: 349px;
+    }
+
+    .card-register {
+        width: 345px;
+    }
+
+    .information-mobile {
+        margin-left: 10px;
+    }
+
+    .staff-mobile {
+        margin-left: -363px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .box-title {
+        width: 324px;
+    }
+
+    .card-register {
+        width: 320px;
+    }
+
+    .staff-mobile {
+        margin-left: -350px;
+    }
+
+    .description-mobile {
+        margin-left: -382px;
+    }
+
+    .info-mobile {
+        margin-left: -180px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .box-title {
+        width: 320px;
+    }
+
+    .card-register {
+        width: 315px;
+    }
+
+    .staff-mobile {
+        margin-left: -336px;
+    }
+
+    .description-mobile {
+        margin-left: -382px;
+    }
+
+    .container {
+        margin-left: -1px;
+    }
+
+    .info-mobile {
+        margin-left: -174px;
+    }
+
+    .information-mobile {
+        margin-left: 11px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .box-title {
+        width: 300px;
+    }
+
+    .card-register {
+        width: 296px;
+    }
+
+    .info-mobile {
+        margin-left: -164px;
+    }
+
+    .staff-mobile {
+        margin-left: -320px;
+    }
+
+    .description-mobile {
+        margin-left: -364px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .box-title {
+        width: 285px;
+    }
+
+    .card-register {
+        width: 280px;
+    }
+
+    .info-mobile {
+        margin-left: -162px;
+    }
+
+    .staff-mobile {
+        margin-left: -308px;
+    }
+
+    .description-mobile {
+        margin-left: -364px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .box-title {
+        width: 240px;
+    }
+
+    .card-register {
+        width: 237px;
+    }
+
+    .container {
+        margin-left: -7px;
+    }
+
+    .staff-mobile {
+        margin-left: -274px;
+    }
+
+    .info-mobile {
+        margin-left: -147px;
+    }
+
+    .description-mobile {
+        margin-left: -307px;
+    }
+
+}

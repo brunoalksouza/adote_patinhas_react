@@ -1,0 +1,123 @@
+.box-text-info {
+    margin: 5px 0;
+}
+
+.box-text-info label {
+    display: block;
+    font-size: 20px;
+    font-family: 'Quicksand';
+    color: #5A3938;
+
+}
+
+.box-text-info input {
+    background-color: #D9D9D9;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    border-radius: 5px;
+    width: 178.34px;
+    height: 33.5px;
+    padding: 3px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:950px) {
+    .box-text-info label {
+        font-size: 17px;
+    }
+
+    .box-text-info input {
+        width: 155.34px;
+        height: 28px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .box-text-info input {
+        width: 130.34px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .box-text-info input {
+        width: 140.34px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .box-text-info input {
+        width: 139.34px;
+    }
+}
+
+
+@media screen and (max-width:715px) {
+    .box-text-info input {
+        width: 120.34px;
+    }
+}
+
+/*------------------Mobile---------------*/
+@media screen and (max-width:650px) {
+    .box-text-info {
+        margin: 0px 0;
+    }
+
+    .box-text-info input {
+        width: 188.34px;
+        height: 22px;
+        margin-bottom: 2px;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box-text-info label {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+
+    .box-text-info input {
+        width: 171.55px;
+        height: 22px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .box-text-info input {
+        width: 160.55px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .box-text-info input {
+        width: 152.55px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .box-text-info input {
+        width: 146.55px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .box-text-info input {
+        width: 135.55px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box-text-info input {
+        width: 135.55px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .box-text-info input {
+        width: 121px;
+    }
+}

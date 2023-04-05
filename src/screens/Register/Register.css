@@ -1,0 +1,15 @@
+.register-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;
+    background: #A5C282;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+.register {
+    padding:10px;
+}
+.footer-register {
+    width: 100vw;
+}
