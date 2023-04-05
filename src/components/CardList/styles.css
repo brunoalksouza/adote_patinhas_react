@@ -1,0 +1,25 @@
+.card-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+    justify-items: center;
+  }
+  
+  @media (max-width: 800px) {
+    .card-list{
+     display: inline-block;
+    } 
+}
+
+@media  (max-width: 400px) {
+    .card-list{
+        display: inline-block;
+      } 
+}

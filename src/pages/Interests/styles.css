@@ -1,0 +1,24 @@
+.interests{
+    background: #A5C282;
+    background-image: url('../../components/img/background.svg')
+}
+
+.interests-cardList {
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-widht: 800px) {
+    .interests-cardList{
+        flex-direction: column;
+        justify-content: left;
+    } 
+}
+
+@media screen and (max-widht: 400px) {
+    .interests-cardList{
+        flex-direction: column;
+        justify-content: left;
+      } 
+}
