@@ -1,0 +1,19 @@
+.interests{
+    background: #A5C282;
+    background-image: url('../../img/background.svg');
+}  
+.interests_section{
+    align-items: center;
+    box-sizing: border-box;
+}
+.interests_section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.interests_section-image{
+    text-align: center;
+}
+.interests_section-container img{
+    max-width: 70%;
+}
