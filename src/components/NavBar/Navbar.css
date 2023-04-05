@@ -1,13 +1,27 @@
+<<<<<<< HEAD
 .navbar a{
     text-decoration: none;
     color: #5A3938;
 }
 .navbar{
+=======
+.navbar a {
+    text-decoration: none;
+    color: #5A3938;
+}
+
+.navbar {
+>>>>>>> origin/profile-screen
     width: 100%;
     position: fixed top 0;
     text-transform: uppercase;
 }
+<<<<<<< HEAD
 .sb_navbar{
+=======
+
+.sb_navbar {
+>>>>>>> origin/profile-screen
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,33 +30,62 @@
     padding: auto 2rem;
     position: relative;
 }
+<<<<<<< HEAD
 .sb_navbar-links{
+=======
+
+.sb_navbar-links {
+>>>>>>> origin/profile-screen
     flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
 .sb_navbar-links_logo img{
+=======
+
+.sb_navbar-links_logo img {
+>>>>>>> origin/profile-screen
     padding: 2.81px 33px;
     width: 154px;
     height: 55.29px;
 }
+<<<<<<< HEAD
 .sb_navbar-links_container{
+=======
+
+.sb_navbar-links_container {
+>>>>>>> origin/profile-screen
     display: flex;
     flex-direction: row;
     margin-right: 2rem;
 }
+<<<<<<< HEAD
 .sb_navbar-links_container p,
 .sb_navbar-menu_container p{
+=======
+
+.sb_navbar-links_container p,
+.sb_navbar-menu_container p {
+>>>>>>> origin/profile-screen
     color: #5A3938;
     font-family: 'Quicksand';
     font-weight: 700;
     font-size: 16px;
     line-height: 61px;
+<<<<<<< HEAD
     margin: 0 1rem;
     cursor: pointer;
 }
 .sb_navbar-menu{
+=======
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.sb_navbar-menu {
+>>>>>>> origin/profile-screen
     margin-right: 1rem;
     display: none;
     flex-direction: column;
@@ -51,6 +94,7 @@
     font-weight: 700;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     
     /* flex-direction: row-reverse; */
     /* background-color: #F2F1EB; */
@@ -59,6 +103,18 @@
     cursor: pointer;
 }-----------------
 .sb_navbar-menu_container{
+=======
+
+    /* flex-direction: row-reverse; */
+    /* background-color: #F2F1EB; */
+}
+
+.sb_navbar-menu svg {
+    cursor: pointer;
+}
+
+----------------- .sb_navbar-menu_container {
+>>>>>>> origin/profile-screen
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -74,16 +130,24 @@
     box-shadow: (0px 0px 6px rgba(0, 0, 0, 0.6));
     /* left: 0; */
 }
+<<<<<<< HEAD
 .sb_navbar-links_container p{
     margin-top: 0;
 }
 .sb_navbar-menu_container-links{
     background-color: #F2F1EB;
     padding: 0.3rem 1rem;
+=======
+
+.sb_navbar-menu_container-links {
+    background-color: #F2F1EB;
+    padding: 2rem 2rem 7rem 2rem;
+>>>>>>> origin/profile-screen
     border-radius: 5px;
     box-shadow: rgb(0, 0, 0);
     position: absolute;
     z-index: 999;
+<<<<<<< HEAD
     right: 25px;
     /* margin: 0 -1rem -12rem ; */
 
@@ -98,10 +162,30 @@
         transform: scale(0.5);
     }
     100%{
+=======
+    right: 1px;
+    /* margin: 0 -1rem -12rem ; */
+
+}
+
+.scole-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-animation: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+>>>>>>> origin/profile-screen
         -webkit-animation: scale(1);
         transform: scale(1);
     }
 }
+<<<<<<< HEAD
 @keyframes scale-up-center{
     0%{
         -webkit-animation: scale(0.5);
@@ -135,3 +219,47 @@
         background-color: #F2F1EB;
     }
 }  
+=======
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-animation: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-animation: scale(1);
+        transform: scale(1);
+    }
+}
+
+/*------------responsive--------------*/
+
+@media screen and (max-width: 800px) {
+    .sb_navbar-menu_container-links p{
+        margin-top: 30px;
+    }
+
+    .sb_navbar-links_container {
+        display: none;
+    }
+
+    .sb_navbar-menu {
+        display: unset;
+    }
+
+    .sb_navbar-menu_container {
+        top: 60px;
+    }
+
+    .sb_navbar-menu_container-links {
+        margin-right: 0;
+        box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .sb_navbar-links_container-liks {
+        display: block;
+        background-color: #F2F1EB;
+    }
+}
+>>>>>>> origin/profile-screen

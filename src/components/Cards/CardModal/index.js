@@ -2,7 +2,11 @@ import { useState } from "react";
 import { GoLocation } from "react-icons/go";
 
 import ReactModal from "react-modal";
+<<<<<<< HEAD
 import "./styles.css";
+=======
+import "./CardModal.css";
+>>>>>>> origin/profile-screen
 
 const CardModal = (props) => {
   const [changeButton, setChangeButton] = useState(true);
@@ -87,4 +91,8 @@ const CardModal = (props) => {
   );
 };
 
+<<<<<<< HEAD
 export default CardModal;
+=======
+export default CardModal;
+>>>>>>> origin/profile-screen

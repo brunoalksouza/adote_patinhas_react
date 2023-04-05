@@ -1,16 +1,9 @@
 import { useState } from "react";
-<<<<<<< HEAD
 import CardModal from "../CardModal";
-import Infos from "../Infos";
-import "./styles.css";
-=======
-import CardModal from "../CardModal/index";
-import Infos from "../Infos/index";
-import "./Card.css";
->>>>>>> origin/profile-screen
+import PetInfos from "../PetInfos";
+import "./RegisteredCard.css";
 
-const Card = (props) => {
-  const [changeButton, setChangeButton] = useState(true);
+const RegisteredCard = (props) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function openModal() {
@@ -29,31 +22,20 @@ const Card = (props) => {
       <div className="infos-container">
         <div>
           {/* infos padrões do bicho */}
-          <Infos pet={props.pet} />
+          <PetInfos pet={props.pet} />
         </div>
 
         <div>{/* infos adicionais do bicho */}</div>
       </div>
 
       <button
-        className="info-button"
+        className="card-button"
         onClick={() => {
           openModal(props.pet);
         }}
-        id="button"
+        style={{ backgroundColor: "#516953" }}
       >
-        Ver mais...
-      </button>
-
-      <button
-        className="card-button"
-        onClick={() => {
-          setChangeButton(!changeButton);
-          console.log(JSON.stringify(props.pet), changeButton);
-        }}
-        style={{ backgroundColor: changeButton ? "#516953" : "#5A3938" }}
-      >
-        {changeButton ? "Tenho interesse" : "Remover"}
+        Detalhes
       </button>
       <CardModal
         pet={props.pet}
@@ -64,4 +46,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default RegisteredCard;

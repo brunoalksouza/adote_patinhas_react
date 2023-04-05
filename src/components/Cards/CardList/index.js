@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Card from "../Card";
 import "./styles.css";
 
@@ -98,6 +99,16 @@ const pets = [
     sexo: "Macho",
     porte: "Grande",
   },
+=======
+import "./CardList.css";
+import naoCadastrados from "../../../assets/img/nao-cadastrados.png";
+import brunoImg from "../../../assets/img/cards/bruno.jpg";
+import mayllonImg from "../../../assets/img/cards/mayllon.jpg";
+import tallesImg from "../../../assets/img/cards/talles.jpg";
+import RegisteredCard from "../RegisteredCard";
+
+let pets = [
+>>>>>>> origin/profile-screen
   {
     id: 1,
     nome: "Mayllon",
@@ -147,6 +158,7 @@ const pets = [
 ];
 
 const CardList = () => {
+<<<<<<< HEAD
   return (
     <div className="card-list-container">
       <div className="card-list">
@@ -159,3 +171,19 @@ const CardList = () => {
 };
 
 export default CardList;
+=======
+  if (!Array.isArray(pets) || !pets.length) {
+     return <img className="nao-cadastrados" alt="logo-nao-cadastrados" src={naoCadastrados} />; 
+    } 
+    return (
+    <div className='registered-pets'>
+       {pets.map((pet) => (<RegisteredCard key={pet.id} pet={pet} />))} 
+    </div>
+    );
+};
+
+export default CardList;
+
+
+
+>>>>>>> origin/profile-screen

@@ -2,30 +2,24 @@ import "./Profile.css";
 import CardUser from "../../components/Profile/CardUser";
 import Title from "../Profile/elements/Title/index";
 import ButtonProfile from "../../components/Profile/ButtonProfile";
+import NavBar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import CardList from "../../components/Cards/CardList";
 
 const Profile = () => {
     return <section className='profile-screen'>
-        <div className='header'></div>
+        < NavBar />
         <div className='profile'>
             < CardUser />
             <div className='pets-cards'>
                 < Title />
-                <div className='registered-pets1'>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                    <div className='card'></div>
-                </div>
+                < CardList />
                 <div>
                     <ButtonProfile>CADASTRE SEU BICHINHO</ButtonProfile>
                 </div>
             </div>
         </div>
-        <div className='footer'></div>
+        < Footer />
     </section>
 
 }

@@ -1,6 +1,10 @@
 import { GoLocation } from "react-icons/go";
 
+<<<<<<< HEAD
 import "./styles.css";
+=======
+import "./Infos.css";
+>>>>>>> origin/profile-screen
 
 const Infos = (props) => {
   return (
@@ -26,4 +30,8 @@ const Infos = (props) => {
   );
 };
 
+<<<<<<< HEAD
 export default Infos;
+=======
+export default Infos;
+>>>>>>> origin/profile-screen
