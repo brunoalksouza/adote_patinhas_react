@@ -16,39 +16,42 @@ const CardUser = () => {
         <>
             {user.map((userData) => (
                 <div className="user-card" key={userData.id}>
-                    <div className="user-card-photo">
-                    <img className="user-photo" alt="Foto do usuário" src="https://github.com/VictoriaShirley.png" />
-                    </div>
-                    <div className="user-form">
-                        <div className="user-form-div">
-                            <h3>Nome:</h3>
-                            <div className="user-text-box">{userData.name}</div>
-                            <h3>E-mail:</h3>
-                            <div className="user-text-box">{userData.email}</div>
-                            <h3>Telefone:</h3>
-                            <div className="user-text-box">{userData.telephone}</div>
+                    <div>
+                        <div className="user-card-photo">
+                            <img className="user-photo" alt="Foto do usuário" src="https://github.com/VictoriaShirley.png" />
                         </div>
-                    </div>
-                    <div className="user-footer">
-                        <div className="user-footer-div">
-                            <div className="user-logout-link">
-                                <a href="#">Sair da conta</a>
-                                <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "global-class-name" }}>
-                                    <div>
-                                        <BiLogOut />
-                                    </div>
-                                </IconContext.Provider>
-                            </div>
-                            <div className="user-delete-link">
-                                <a href="#">Excluir conta</a>
-                                <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "user-global-class-name" }}>
-                                    <div>
-                                        <RiDeleteBin6Line />
-                                    </div>
-                                </IconContext.Provider>
+                        <div className="user-form ">
+                            <div className="user-form-div">
+                                <h3>Nome:</h3>
+                                <div className="user-text-box">{userData.name}</div>
+                                <h3>E-mail:</h3>
+                                <div className="user-text-box">{userData.email}</div>
+                                <h3>Telefone:</h3>
+                                <div className="user-text-box">{userData.telephone}</div>
                             </div>
                         </div>
-                    </div>
+                        <div className="user-footer">
+                            <div className="user-footer-div">
+                                <div className="user-logout-link">
+                                    <a href="#">Sair da conta</a>
+                                    <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "global-class-name" }}>
+                                        <div>
+                                            <BiLogOut />
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                                <div className="user-delete-link">
+                                    <a href="#">Excluir conta</a>
+                                    <IconContext.Provider value={{ size: 25, color: "#5A3938", className: "user-global-class-name" }}>
+                                        <div>
+                                            <RiDeleteBin6Line />
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
                 </div>
             ))}
         </>

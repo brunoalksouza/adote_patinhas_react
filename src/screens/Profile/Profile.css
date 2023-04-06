@@ -1,38 +1,43 @@
+
 .profile-screen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     height: 100vh;
 }
 
 .profile {
+    
     background-color: #A5C282;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     display: flex;
+    height: 100%;
+    
 }
 
+
 .pets-cards {
-    width: 100vw;
-    margin: 35px 0px;
-    align-items: center;
     display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
     flex-direction: column;
     flex: 1;
 }
 
 
-@media screen and (max-width: 1020px) {
-    .card {
-        width: 200px;
-    }
-}
-
-
 @media screen and (max-width: 620px) {
+    .profile-screen {
+        height: 100%;
+    }
+
+    
     .profile {
         flex-direction: column;
     }
 
     .pets-cards {
-        height: 100vh;
-        margin: 120px 0px;
-        width: 100vw;
+        flex-direction: column;       
+        
     }
 }

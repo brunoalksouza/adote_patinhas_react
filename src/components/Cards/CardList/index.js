@@ -52,6 +52,7 @@ let pets = [
     sexo: "Macho",
     porte: "Grande",
   },
+  
 ];
 
 const CardList = () => {

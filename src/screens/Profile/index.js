@@ -8,18 +8,21 @@ import CardList from "../../components/Cards/CardList";
 
 const Profile = () => {
     return <section className='profile-screen'>
-        < NavBar />
+        < NavBar />       
+        
         <div className='profile'>
             < CardUser />
+            
             <div className='pets-cards'>
                 < Title />
-                < CardList />
-                <div>
-                    <ButtonProfile>CADASTRE SEU BICHINHO</ButtonProfile>
-                </div>
+                < CardList />                
+                <ButtonProfile>CADASTRE SEU BICHINHO</ButtonProfile>                
             </div>
         </div>
-        < Footer />
+        <div>
+            <Footer />
+        </div>
+        
     </section>
 
 }
