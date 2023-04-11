@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CardModal from "../CardModal";
-import PetInfos from "../PetInfos";
+import CardModal from "../../Cards/CardModal";
+import PetInfos from "../../Cards/PetInfos";
 import "./RegisteredCard.css";
 
 const RegisteredCard = (props) => {

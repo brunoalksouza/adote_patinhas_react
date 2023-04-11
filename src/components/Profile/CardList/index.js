@@ -3,7 +3,7 @@ import naoCadastrados from "../../../assets/img/nao-cadastrados.png";
 import brunoImg from "../../../assets/img/cards/bruno.jpg";
 import mayllonImg from "../../../assets/img/cards/mayllon.jpg";
 import tallesImg from "../../../assets/img/cards/talles.jpg";
-import RegisteredCard from "../RegisteredCard";
+import RegisteredCard from "../../Cards/RegisteredCard";
 
 let pets = [
   {
@@ -57,7 +57,7 @@ let pets = [
 
 const CardList = () => {
   if (!Array.isArray(pets) || !pets.length) {
-     return <img className="nao-cadastrados" alt="logo-nao-cadastrados" src={naoCadastrados} />; 
+     return <img className="unregisteres" alt="Não há animais cadastrados" src={naoCadastrados} />; 
     } 
     return (
     <div className='registered-pets'>
